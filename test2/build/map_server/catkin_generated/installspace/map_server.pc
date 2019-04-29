@@ -1,0 +1,8 @@
+prefix=/home/tju/test2/install
+
+Name: map_server
+Description: Description of map_server
+Version: 1.12.13
+Cflags: -I/home/tju/test2/install/include
+Libs: -L/home/tju/test2/install/lib -limage_loader
+Requires: roscpp tf nav_msgs

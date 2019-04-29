@@ -1,0 +1,2 @@
+map_server
+-DCATKIN_DEVEL_PREFIX=/home/tju/test2/devel -DCMAKE_INSTALL_PREFIX=/home/tju/test2/install -G Unix Makefiles

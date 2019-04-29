@@ -1,0 +1,8 @@
+prefix=/home/tju/NavTest/install
+
+Name: voxel_grid
+Description: Description of voxel_grid
+Version: 1.14.4
+Cflags: -I/home/tju/NavTest/install/include
+Libs: -L/home/tju/NavTest/install/lib -lvoxel_grid
+Requires: roscpp

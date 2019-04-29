@@ -1,0 +1,8 @@
+prefix=/home/tju/NavTest/devel
+
+Name: test_tf2
+Description: Description of test_tf2
+Version: 0.6.5
+Cflags: 
+Libs: -L/home/tju/NavTest/devel/lib 
+Requires: 

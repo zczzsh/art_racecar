@@ -1,0 +1,2 @@
+cartographer_ros/cartographer_ros:cartographer_ros/cartographer_ros_msgs:cartographer_ros/cartographer_rviz:map_server
+-DCATKIN_DEVEL_PREFIX=/home/tju/test/devel -DCMAKE_INSTALL_PREFIX=/home/tju/test/install -G Unix Makefiles

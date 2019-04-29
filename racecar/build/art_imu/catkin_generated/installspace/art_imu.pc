@@ -1,0 +1,8 @@
+prefix=/home/tju/racecar/install
+
+Name: art_imu
+Description: Description of art_imu
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/tju/racecar/install/lib 
+Requires: 

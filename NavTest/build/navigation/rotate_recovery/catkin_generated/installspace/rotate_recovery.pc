@@ -1,0 +1,8 @@
+prefix=/home/tju/NavTest/install
+
+Name: rotate_recovery
+Description: Description of rotate_recovery
+Version: 1.14.4
+Cflags: -I/home/tju/NavTest/install/include
+Libs: -L/home/tju/NavTest/install/lib -lrotate_recovery
+Requires: roscpp pluginlib

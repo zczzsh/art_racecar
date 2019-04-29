@@ -1,0 +1,8 @@
+prefix=/home/tju/NavTest/install
+
+Name: tf2_sensor_msgs
+Description: Description of tf2_sensor_msgs
+Version: 0.6.5
+Cflags: -I/home/tju/NavTest/install/include -I/usr/include/eigen3
+Libs: -L/home/tju/NavTest/install/lib 
+Requires: sensor_msgs tf2_ros tf2

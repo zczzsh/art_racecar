@@ -1,0 +1,8 @@
+prefix=/home/tju/NavTest/install
+
+Name: nav_core
+Description: Description of nav_core
+Version: 1.14.4
+Cflags: -I/home/tju/NavTest/install/include
+Libs: -L/home/tju/NavTest/install/lib 
+Requires: std_msgs geometry_msgs tf costmap_2d

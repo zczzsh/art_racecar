@@ -1,0 +1,8 @@
+prefix=/home/tju/NavTest/devel
+
+Name: tf2_eigen
+Description: Description of tf2_eigen
+Version: 0.6.5
+Cflags: -I/home/tju/NavTest/src/geometry2/tf2_eigen/include -I/usr/include/eigen3
+Libs: -L/home/tju/NavTest/devel/lib 
+Requires: 

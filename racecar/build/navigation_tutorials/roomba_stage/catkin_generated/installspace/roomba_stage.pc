@@ -1,0 +1,8 @@
+prefix=/home/tju/racecar/install
+
+Name: roomba_stage
+Description: Description of roomba_stage
+Version: 0.2.3
+Cflags: 
+Libs: -L/home/tju/racecar/install/lib 
+Requires: 

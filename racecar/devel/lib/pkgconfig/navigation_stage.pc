@@ -1,0 +1,8 @@
+prefix=/home/tju/racecar/devel
+
+Name: navigation_stage
+Description: Description of navigation_stage
+Version: 0.2.3
+Cflags: 
+Libs: -L/home/tju/racecar/devel/lib 
+Requires: 

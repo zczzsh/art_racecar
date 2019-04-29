@@ -1,0 +1,8 @@
+prefix=/home/tju/test/install
+
+Name: cartographer_ros_msgs
+Description: Description of cartographer_ros_msgs
+Version: 1.0.0
+Cflags: -I/home/tju/test/install/include
+Libs: -L/home/tju/test/install/lib 
+Requires: 

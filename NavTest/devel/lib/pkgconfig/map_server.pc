@@ -1,0 +1,8 @@
+prefix=/home/tju/NavTest/devel
+
+Name: map_server
+Description: Description of map_server
+Version: 1.14.4
+Cflags: -I/home/tju/NavTest/src/navigation/map_server/include
+Libs: -L/home/tju/NavTest/devel/lib -lmap_server_image_loader
+Requires: roscpp nav_msgs tf2

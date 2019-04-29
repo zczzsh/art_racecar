@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<launch> 
+<node pkg="hector_imu_attitude_to_tf" type="imu_attitude_to_tf_node" name="imu_attitude_to_tf_node" output="screen"> <!--“hector_imu_attitude_to_tf”包，node名“imu_attitude_to_tf_node” --> 
+
+<remap from="imu_topic" to="/imu_data" /> 
+<!--将“imu_topic”话题映射为“/imu_data”话题--> 
+
+<param name="base_stabilized_frame" type="string" value="base_stabilized" /> 
+<!--"base_stabilized"在下面的坐标系上加入了高度，"base_link"则在有高度的基础上加入了俯仰角和横滚角--> 
+
+<param name="base_frame" type="string" value="base_footprint" /> 
+<!--”base_footprint“没有高度，2D pose of the robot(position and orientation) --> <!--”base_footprint“、"base_link"、“base_stabilized”三者的关系参见：http://wiki.ros.org/hector_slam/Tutorials/SettingUpForYourRobot 的附图) --> 
+</node> 
+</launch>
+

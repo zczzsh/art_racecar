@@ -1,0 +1,8 @@
+prefix=/home/tju/racecar/devel
+
+Name: art_racecar
+Description: Description of art_racecar
+Version: 0.1.0
+Cflags: -I/home/tju/racecar/devel/include
+Libs: -L/home/tju/racecar/devel/lib 
+Requires: roscpp rospy std_msgs
