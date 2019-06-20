@@ -2,7 +2,8 @@
 codes on art robot racecar used by zhusihan
 
 #本项目中的所有代码均在ROS kinetic + Ubuntu 16.04 纯净版环境下运行，实验平台为artRobot 全国大学生智能车竞赛的比赛用车，
-具体说明和初始代码参见：https://github.com/ART-Robot-Release/racecar。本项目仅作为日常研究，使用其参加比赛造成的不当后果概不负责。
+具体说明和初始代码参见：https://github.com/ART-Robot-Release/racecar
+本项目仅作为日常研究，使用其参加比赛造成的不当后果概不负责。
 
 #代码描述
 NavTest文件夹内代码为对导航避障部分，动态避障中残留障碍物信息的处理代码。在ROS源码的基础上利用overlaying机制进行了修改。
